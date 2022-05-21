@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#000000"
+        android:paddingBottom="5dip">
+
+        <TextView
+            android:id="@+id/box1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1.1"
+            android:background="@color/red"
+            android:layout_marginRight="5dp"/>
+
+
+        <TextView
+            android:id="@+id/box2"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:layout_marginRight="5dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1.3"
+        android:orientation="horizontal"
+        android:background="#000000"
+        android:paddingBottom="5dip"
+        >
+
+        <TextView
+            android:id="@+id/box3"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1.3"
+            android:background="@color/red"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:id="@+id/box4"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/box5"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@color/blue" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#000000">
+
+        <TextView
+            android:id="@+id/box6"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@color/green"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:id="@+id/box7"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight=".6"
+            android:layout_marginRight="5dp"
+            android:background="@color/blue" />
+
+        <TextView
+            android:id="@+id/box8"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:background="@color/red" />
+
+        <TextView
+            android:id="@+id/box9"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="0.7"
+            android:background="@color/yellow" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:padding="10dp"
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        />
+
+</LinearLayout>

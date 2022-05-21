@@ -1,0 +1,5 @@
+﻿TÀI LIỆU THAM KHẢO
+[1] 	viettelidc, "Tìm hiểu về tấn công từ chối dịch vụ DoS," [Online]. Available: https://viettelidc.com.vn/tin-tuc/tim-hieu-ve-tan-cong-tu-choi-dich-vu-dos. [Accessed 22 4 2022].
+[2] 	Wikipedia, "Tấn công từ chối dịch vụ," [Online]. Available: https://vi.wikipedia.org/wiki/T%E1%BA%A5n_c%C3%B4ng_t%E1%BB%AB_ch%E1%BB%91i_d%E1%BB%8Bch_v%E1%BB%A5. [Accessed 22 4 2022].
+[3] 	blogchiasekienthuc, "Dos – DDos là gì? Hacker tấn công DDos bằng cách nào?," [Online]. Available: https://blogchiasekienthuc.com/dan-cong-nghe/dos-ddos-la-gi-hacker-tan-cong-ddos-bang-cach-nao.html. [Accessed 22 4 2022].
+[4] 	quantrimang, "Tấn công từ chối dịch vụ DoS và DDoS là gì? Tác hại của chúng ra sao?," [Online]. Available: https://quantrimang.com/tim-hieu-ve-tan-cong-tu-choi-dich-vu-dos-34926. [Accessed 22 4 2022].

